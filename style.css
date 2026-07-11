@@ -210,6 +210,56 @@ font-size: 15px;
     color: white;
     border: none;
 }
+footer{
+    background-color: #0d1b2a;
+}
+
+
+
+
+.footer-top-part{
+     padding: 50px 8% 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     color: rgb(117, 117, 117);
+
+}
+.social-icon ul{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 20px;
+ list-style: none;
+ 
+}
+.social-icon li{
+    text-decoration: none;
+    
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8% 50px;
+}
+.footer-bottom p{
+    color:#3c4753;
+}
+.footer-bottom li{
+    color:#3c4753;
+    list-style: none;
+}
+.footer-policy ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.fa-brands{
+    margin-right: 5px;
+}
 
 
 

@@ -180,6 +180,7 @@ font-size: 15px;
 
 .secure-card-2{
     background-color: #0d1b2a;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .secure-card-2 h4{
     color: #7eaadb;
@@ -237,6 +238,13 @@ footer{
     text-decoration: none;
     
 }
+
+footer hr {
+    border: 0;
+    height: 1px;
+    background-color:#2e363f;
+    margin-bottom: 20px;
+}
 .footer-bottom{
     display: flex;
     justify-content: space-between;
@@ -259,6 +267,72 @@ footer{
 
 .fa-brands{
     margin-right: 5px;
+}
+
+/* FAQ Section */
+
+.faq{
+    padding: 100px 0;
+    background: #f8fafc;
+}
+
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.faq-subtitle{
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 50px;
+}
+
+.faq-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-container details{
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: .3s;
+}
+
+.faq-container details:hover{
+    border-color: #2563eb;
+}
+
+.faq-container summary{
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+}
+
+.faq-container summary::-webkit-details-marker{
+    display: none;
+}
+
+.faq-container summary::after{
+    content: "+";
+    float: right;
+    font-size: 22px;
+    color: #2563eb;
+}
+
+.faq-container details[open] summary::after{
+    content: "−";
+}
+
+.faq-container p{
+    margin-top: 18px;
+    color: #555;
+    line-height: 1.7;
 }
 
 

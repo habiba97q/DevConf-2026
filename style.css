@@ -3,6 +3,9 @@
     padding: 0;
     font-family: "Inter", sans-serif;
 }
+section{
+    padding: 50px 8%;
+}
 nav{
 display: flex;
 text-align: center;
@@ -51,4 +54,62 @@ header{
 .header-content h1{
  font-weight: bold;
  font-size:3.5rem;
+}
+.speaker h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.speaker-grid{ 
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 30px;
+    
+}
+.card{
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 20px ;
+}
+
+ .card img{
+   height: 100%;
+   width: 100%;
+   border-radius: 20px 20px 0px 0px;
+    
+}
+.card-text{
+    padding: 20px;
+    
+}
+
+.card-text h4{
+   color: #2563EB;
+   font-size: 0.75rem;
+}
+
+.card-text h3{
+font-size: 1rem;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.card-text p{
+    color:#575757;
+    font-weight:400;
+    font-size: 0.80rem;
+} 
+.speaker{
+    margin-bottom: 20px;
+}
+
+
+.secure-text{
+    text-align: center;
+}
+.secure-text h2{
+margin-bottom: 10px;
+font-size: 2rem;
+}
+.secure-text p{
+color:#575757;
 }

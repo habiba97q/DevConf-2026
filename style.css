@@ -35,7 +35,7 @@ nav ul{
     cursor: pointer;
 }
 
-header{
+.banner{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/banner.jpg);
     height: 90vh;
     background-repeat: no-repeat;
@@ -45,18 +45,18 @@ header{
     justify-content: center;
     align-items: center;
 }
-.header-content{
+.banner-content{
     display: grid;
     flex-direction: column;
     color:white;
     text-align: center;
     gap:20px;
 }
-.header-btn{
+.banner-btn{
     display: flex;
     justify-content: center;
 }
-.header-content h1{
+.banner-content h1{
  font-weight: bold;
  font-size:3.5rem;
 }
